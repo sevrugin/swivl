@@ -1,0 +1,6 @@
+services:
+    classroom.repository:
+        class: Doctrine\ORM\EntityRepository
+        factory: ['@doctrine.orm.entity_manager', getRepository]
+        arguments:
+            - ClassroomBundle\Entity\Classroom

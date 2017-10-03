@@ -39,3 +39,8 @@ monolog:
 
 #swiftmailer:
 #    delivery_addresses: ['me@example.com']
+
+nelmio_api_doc:
+    name:                 'Swivl API documentation'
+    sandbox:
+        enabled:              true
