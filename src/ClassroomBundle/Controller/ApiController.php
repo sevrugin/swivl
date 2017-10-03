@@ -108,7 +108,7 @@ class ApiController extends FOSRestController
      *     authentication=false,
      *     parameters={
      *     },
-     *     description="Create classroom",
+     *     description="Delete classroom",
      *     statusCodes={
      *         200="Returned when request is successful",
      *         400="Returned when bad request received",
